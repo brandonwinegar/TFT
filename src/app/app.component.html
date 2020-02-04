@@ -1,10 +1,20 @@
 <div class="grid-container">
-  <div class="header">HEADER</div>
-  <div class="synergies">SYNERGIES
-    <!-- <synergies [synergies]="synergies"></synergies> -->
-    <ul *ngFor="let trait of localTraits">
-      <img [hidden] ="trait.count==0" [src]="trait.src">
-    </ul>
+  <div class="header">
+    HEADER
+    <div class="parent">
+      <img class="medal" [src]="goldPath">
+      <img class="medal" [src]="silverPath">
+      <img class="medal" [src]="bronzePath">
+    </div>
+  </div>
+  <div class="synergies flex-container">SYNERGIES
+    <div *ngFor="let trait of traits">
+      <div *ngIf="trait.count>0">
+        <trait 
+          [trait]="trait">
+        </trait>
+      </div>
+    </div>
   </div>
   <div class="team flex-container">
     TEAM
@@ -14,7 +24,8 @@
   </div>
   <div class="champs flex-container">
     CHAMPS
-    <ul *ngFor="let champ of champs | async">
+    <ul *ngFor="let champ of champs">
+      {{champ.name}}
       <icon [champ]="champ" (click)="addToTeam(champ)"></icon>
     </ul>
   </div>

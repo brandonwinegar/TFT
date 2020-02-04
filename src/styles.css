@@ -3,22 +3,23 @@
 
 body {
     font-size: 24px;
+    color: aliceblue;
 }
 .flex-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 .grid-container{
     display: grid;
-    background-image: linear-gradient(rgb(0, 119, 255), rgb(37, 64, 104));
+    background-image: linear-gradient(rgb(0, 35, 75), rgb(3, 39, 94));
     grid-row-gap: 10px;
     grid-column-gap: 10px;
     width: 100%;
     height: 100vh;
 }.grid-container > div{
- background-color: rgba(248, 242, 217, .35);
+ background-color: rgba(248, 242, 217, .1);
  text-align: center;
 }
 .header{
@@ -49,4 +50,28 @@ body {
 .icon{
     width:15px;
     height:15px;
+}
+.parent{
+    position: relative;
+    top: 0px;
+    left: 0px; 
+}
+.medal{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.traitIcon{
+    position: absolute;
+    top: 4px;
+    left: 659px;
+    width: 42px;
+    height: 42px;
+}
+.test{
+    position: absolute;
+    top: 4px;
+    left: 896px;
+    width: 38px;
+    height: 38px;
 }

@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IconComponent } from './icon/icon.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TraitComponent } from './trait/trait.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IconComponent,
+    TraitComponent,
   ],
   imports: [
     BrowserModule,

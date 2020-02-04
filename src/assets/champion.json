@@ -128,7 +128,8 @@
       "cost": 3,
       "traits": [
         "Shadow",
-        "Inferno"
+        "Inferno",
+        "Ranger"
       ],
       "src": "assets/champion-Icons/Kindred.png"
     },
@@ -146,7 +147,8 @@
       "cost": 2,
       "traits": [
         "Woodland",
-        "Assassin"
+        "Assassin",
+        "Mage"
       ],
       "src": "assets/champion-Icons/LeBlanc.png"
     },
@@ -281,7 +283,8 @@
       "cost": 5,
       "traits": [
         "Shadow",
-        "Mystic"
+        "Mystic",
+        "Blademaster"
       ],
       "src": "assets/champion-Icons/MasterYi.png"
     },
@@ -530,7 +533,8 @@
       "cost": 2,
       "traits": [
         "Glacial",
-        "Electric"
+        "Electric",
+        "Berserker"
       ],
       "src": "assets/champion-Icons/Volibear.png"
     },

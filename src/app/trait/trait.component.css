@@ -1,0 +1,12 @@
+.medal{
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.traitIcon{
+    position: relative;
+    top: 0px;
+    left: -38px;
+    width: 32px;
+    height: 32px;
+}
